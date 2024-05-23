@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	int base, altura,mult;
+	
+	printf ("Digite a base do triangulo: ");
+	scanf("%d", &base);
+	printf("Digite a altura do triangulo: ");
+	scanf("%d", &altura);
+	
+	mult= base*altura;
+	printf("\A area do triangulo base %d e altura %d e: %dcm", base,altura,mult);
+	
+	return 0;
+}
