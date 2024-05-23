@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	float nota,frequencia;
+	printf("Digite sua nota: ");
+	scanf("%f", &nota);
+	printf("Digite sua frequencia: ");
+	scanf("%f", &frequencia);
+	if (nota>=10 && frequencia>=75){
+		printf("Aprovado.Parabens!");
+	}else{
+	   printf("Reprovado.Sinto muito!");
+    }
+	
+	return 0;
+}
