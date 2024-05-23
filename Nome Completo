@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	setlocale(LC_ALL, "portuguese");
+	char nome[50], dos[50], sobrenome[50], ambos[50];
+
+	printf("digite seu nome: ");
+	scanf("%s %s %s %s", nome, dos, sobrenome, ambos);
+	printf (" seu nome é: %s %s %s %s",nome, dos, sobrenome, ambos);
+return 0;
+}
